@@ -1,0 +1,4 @@
+body {
+    @apply text-gray-dark;
+    @apply text-lg;
+}
