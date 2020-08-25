@@ -1,7 +1,7 @@
 import Head from 'next/head'
 
 const Home = () => (
-  <main className="sm:max-w-full md:w-1/2 lg:1/3 sm:mx-3 md:mx-auto lg:mx-auto">
+  <main className="sm:max-w-full md:w-1/2 lg:w-2/5 sm:mx-3 md:mx-auto lg:mx-auto">
     <Head>
       <title>Starboard Developer Cooperative</title>
     </Head>
