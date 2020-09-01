@@ -11,7 +11,6 @@ const Home = () => (
     <Header />
     <main className="sm:max-w-full md:w-1/2 lg:w-2/5 sm:mx-3 md:mx-auto lg:mx-auto">
       <Section>
-        <h1 className="text-gray-dark text-6xl">Starboard Co-op</h1>
         <h2 className="text-gray-light text-xl">Your friendly neighborhood software development studio, owned by the people who do the work.</h2>
         <p className="mt-4">
           <a className="text-primary" href="https://riceo.org/learn">Learn</a> about the worker cooperative movement in Rhode Island.

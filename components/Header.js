@@ -14,7 +14,10 @@ const Header = () => (
                 <Link href="/"><a className="mr-4">NavTwo</a></Link>
                 <Link href="/"><a className="mr-4">NavThree</a></Link>
             </div>
-            <div>socials</div>
+            <div className="flex">
+                <a className="mr-4" href="/#twitter"><img width="20px" src="/twitter.svg" /></a>
+                <a className="mr-4" href="/#github"><img width="20px" src="/github.svg" /></a>
+            </div>
         </nav>
     </header>
 )
