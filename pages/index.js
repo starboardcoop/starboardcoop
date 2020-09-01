@@ -1,13 +1,14 @@
 import Head from 'next/head'
 import Header from '../components/Header'
 import Section from '../components/Section'
+import Footer from '../components/Footer'
 
 const Home = () => (
   <>
     <Head>
       <title>Starboard Developer Cooperative</title>
     </Head>
-    <Header/>
+    <Header />
     <main className="sm:max-w-full md:w-1/2 lg:w-2/5 sm:mx-3 md:mx-auto lg:mx-auto">
       <Section>
         <img className="w-12 rounded-full" src="/logo.png" alt="Starboard" />
@@ -24,6 +25,7 @@ const Home = () => (
         <p>We are a worker-owned cooperative, meaning everyone doing the work owns the business...</p>
       </Section>
     </main>
+    <Footer />
   </>
 )
 
