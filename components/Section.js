@@ -1,5 +1,5 @@
 const Section = props => (
-    <section>{props.children}</section>
+    <section className={`p-16 text-center bg-${props.color} text-${props.textColor}`}>{props.children}</section>
 )
 
 export default Section

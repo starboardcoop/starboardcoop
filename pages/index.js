@@ -13,14 +13,17 @@ const Home = () => (
       <Section>
         <h2 className="text-gray-light text-xl">Your friendly neighborhood software development studio, owned by the people who do the work.</h2>
         <p className="mt-4">
-          <a className="text-primary" href="https://riceo.org/learn">Learn</a> about the worker cooperative movement in Rhode Island.
+          <a className="text-primary-light" href="https://riceo.org/learn">Learn</a> about the worker cooperative movement in Rhode Island.
         </p>
       </Section>
-      <Section>
-        <p>Highly competitive rates for Rhode Island businesses...</p>
+      <Section color="primary-dark" textColor="white">
+        <p>We bring Rhode Island small businesses online so they can better serve their customers and gain new ones.</p>
       </Section>  
       <Section>
-        <p>We are a worker-owned cooperative, meaning everyone doing the work owns the business...</p>
+        <p>The global Covid-19 pandemic has uncovered the need for small businesses have a great online experience, if they are to compete with large corporations</p>
+      </Section>
+      <Section color="primary-dark" textColor="white">
+        <p>We believe a small, local store with a great website has a fighting chance against Walmart and Amazon.</p>
       </Section>
     </main>
     <Footer />
