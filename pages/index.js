@@ -20,7 +20,7 @@ const Home = () => (
         <p>We bring Rhode Island small businesses online so they can better serve their customers and gain new ones.</p>
       </Section>  
       <Section color="primary-dark" textColor="white">
-        <p>The global Covid-19 pandemic has uncovered the need for small businesses have a great online experience, if they are to compete with large corporations</p>
+        <p>The global Covid-19 pandemic has uncovered the need for small businesses to offer great online experiences, if they are to compete with large corporations.</p>
       </Section>
       <Section color="gray-dark" textColor="white">
         <p>We believe a small, local store with a great website has a fighting chance against Walmart and Amazon.</p>
