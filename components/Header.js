@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-const headerStyle = "w-full bg-primary"
+const headerStyle = "w-full bg-primary-light"
 const navStyle = "flex bg-gray-dark text-white text-xl p-4 h-16"
 
 const socialContainerStyle = "flex"
