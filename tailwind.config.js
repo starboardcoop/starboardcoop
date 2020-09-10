@@ -1,7 +1,6 @@
 module.exports = {
   purge: [],
   theme: {
-    extend: {},
     colors: {
       white: '#ffffff',
       primary: {
@@ -12,6 +11,14 @@ module.exports = {
         light: '#a6a6a6',
         dark: '#424242'
       }
+    },
+    extend: {
+      backgroundImage: theme => ({
+        'cashier': "url('/cashier.jpg')"
+      }),
+      height: theme => ({
+        '70': '70vh'
+      })
     }
   },
   variants: {},
