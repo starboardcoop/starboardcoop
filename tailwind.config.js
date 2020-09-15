@@ -5,7 +5,7 @@ module.exports = {
       white: '#ffffff',
       primary: {
         light: '#03989e',
-        dark: '#709fa1'
+        dark: '#29797a'
       },
       gray: {
         light: '#a6a6a6',
@@ -14,7 +14,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: theme => ({
-        'cashier': "url('/cashier.jpg')"
+        'cashier': "url('/cashier-2.jpg')"
       }),
       height: theme => ({
         '70': '70vh'
