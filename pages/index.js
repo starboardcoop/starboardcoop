@@ -25,6 +25,10 @@ const Home = () => (
       <Section className="bg-gray-dark text-white">
         <h2 className="text-2xl">We believe a small, local store with a great website has a fighting chance against Walmart and Amazon.</h2>
       </Section>
+      <Section className="bg-gray-light text-gray-dark">
+        <h2>Contact Us!</h2>
+        <a href = "mailto: starboardcoop@gmail.com">at Hello@Starboard.dev</a>
+      </Section>
     </main>
     <Footer />
   </>
