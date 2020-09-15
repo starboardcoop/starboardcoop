@@ -14,7 +14,8 @@ module.exports = {
     },
     extend: {
       backgroundImage: theme => ({
-        'cashier': "url('/cashier-2.jpg')"
+        'cashier': "url('/cashier-2.jpg')",
+        'brewery': "url('/brewery-2.jpg')"
       }),
       height: theme => ({
         '70': '70vh'

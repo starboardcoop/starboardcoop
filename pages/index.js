@@ -22,8 +22,8 @@ const Home = () => (
       <Section className="bg-primary-dark text-white">
         <h2 className="text-2xl">The global Covid-19 pandemic has uncovered the need for small businesses to offer great online experiences, if they are to compete with large corporations.</h2>
       </Section>
-      <Section className="bg-gray-dark text-white">
-        <h2 className="text-2xl">We believe a small, local store with a great website has a fighting chance against Walmart and Amazon.</h2>
+      <Section className="md:h-70 text-white bg-brewery flex flex-col justify-center">
+        <h2 className="text-3xl md:text-4xl">We believe a small, local business with a great website has a fighting chance against the Walmarts and Amazons.</h2>
       </Section>
       <Section className="bg-gray-light text-gray-dark">
         <h2>Contact Us!</h2>
