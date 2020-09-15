@@ -1,10 +1,10 @@
 import Link from 'next/link'
 
 const headerStyle = "w-full bg-primary-light"
-const navStyle = "flex bg-gray-dark text-white text-xl p-4 h-16"
+const navStyle = "flex flex-row overflow-x-auto bg-gray-dark text-white text-xl p-4 h-16"
 
 const socialContainerStyle = "flex"
-const aStyle = "mr-4 inline"
+const aStyle = "mr-6 inline"
 const svgStyle = "h-8 w-8"
 
 const Header = () => (
@@ -13,10 +13,10 @@ const Header = () => (
             <img src="/masthead-white.png" alt="Starboard" />
         </div>
         <nav className={navStyle}>
-            <div>
-                <Link href="/"><a className="mr-4">NavOne</a></Link>
-                <Link href="/"><a className="mr-4">NavTwo</a></Link>
-                <Link href="/"><a className="mr-4">NavThree</a></Link>
+            <div className="flex flex-row">
+                <a href="/#two" className="mr-6">Services</a>
+                <a href="/#three" className="mr-6 whitespace-no-wrap">Online Commerce</a>
+                <a href="/#four" className="mr-6">Compete</a>
             </div>
             <div className={socialContainerStyle}>
                 <a className={aStyle} href="/#twitter">
