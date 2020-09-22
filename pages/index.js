@@ -10,7 +10,7 @@ const Home = () => (
     </Head>
     <Header />
     <main>
-      <Section id="one" className="md:h-70 text-white bg-cashier">
+      <Section id="one" className="md:h-70 text-white bg-cashier flex flex-col justify-center">
         <h1 className="text-white text-3xl md:text-4xl">Your friendly neighborhood software development studio, owned by the people who do the work.</h1>
         <p className="mt-4 text-xl">
           <a className="text-primary-light" href="https://riceo.org/learn">Learn</a> about the worker cooperative movement in Rhode Island.

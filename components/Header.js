@@ -1,25 +1,22 @@
-const headerStyle = "w-full bg-primary-light"
-const navStyle = "flex flex-row overflow-x-auto bg-gray-dark text-white text-xl"
-
 const aStyle = "mr-6 inline"
 const svgStyle = "h-8 w-8"
 
 const Header = () => (
-    <header className={headerStyle}>
-        <div className="sm:hidden sm:w-full md:w-40">
+    <header className="w-full bg-primary-light md:bg-transparent md:absolute md:t-0">
+        <div className="block md:hidden sm:w-full md:w-40">
             <img src="/masthead-white.png" alt="Starboard" />
         </div>
-        <nav className={navStyle}>
-            <div className="sm:hidden md:flex md:bg-primary-light md:p-4">
-                <a href="/#"><img src="/logo-compact.png" alt="Starboard" className="h-16"/></a>
+        <nav className="flex flex-row overflow-x-auto text-white text-xl bg-gray-dark md:bg-transparent">
+            <div className="hidden md:flex md:p-4">
+                <a href="/#"><img src="/mixed.png" alt="Starboard" className="h-24"/></a>
             </div>
-            <div className="flex flex-row content-center">
+            <div className="flex flex-row content-center flex-1">
                 <div className="flex flex-row p-4 items-center">
                     <a href="/#two" className="mr-6">Services</a>
                     <a href="/#three" className="mr-6 whitespace-no-wrap">Online Commerce</a>
                     <a href="/#four" className="mr-6">Compete</a>
                 </div>
-                <div className="flex p-4 pl-0 items-center">
+                <div className="flex p-4 pl-0 items-center flex-1 justify-end">
                     <a className={aStyle} href="/#twitter">
                         <svg className={svgStyle} role="img" fill="#ffffff" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"/>
