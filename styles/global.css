@@ -1,4 +1,16 @@
+@font-face {
+    font-family: headingFont;
+    src: url(../public/JetBrainsMono-Regular.ttf);
+}
+
 body {
     @apply text-gray-dark;
     @apply text-lg;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: headingFont;
 }
