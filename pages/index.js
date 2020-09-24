@@ -13,7 +13,7 @@ const Home = () => (
       <Section id="one" className="md:h-70 text-white bg-cashier flex flex-col justify-center">
         <h1 className="text-white text-3xl md:text-4xl">Your friendly neighborhood software development studio, owned by the people who do the work.</h1>
         <p className="mt-4 text-xl">
-        Learn about the <a className="text-white bg-primary-light p-1" href="https://riceo.org/learn">worker cooperative movement</a> in Rhode Island.
+          Learn about the <a className="text-white bg-primary-light p-1 hover:bg-primary-dark" href="https://riceo.org/learn">worker cooperative movement</a> in Rhode Island.
         </p>
       </Section>
       <Section id="two" className="bg-gray-dark text-white">

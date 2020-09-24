@@ -9,17 +9,18 @@ module.exports = {
       height: theme => ({
         '70': '70vh'
       }),
-      colors: {
+      colors: theme => ({
         white: '#ffffff',
         primary: {
           light: '#03989e',
           dark: '#29797a'
         },
         gray: {
+          ultralight: '#dedede',
           light: '#a6a6a6',
           dark: '#424242'
         }
-      },
+      }),
     }
   },
   variants: {},
