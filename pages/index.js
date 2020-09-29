@@ -17,7 +17,7 @@ const Home = () => (
         </p>
       </Section>
       <Section id="two" className="bg-gray-dark text-white">
-        <h2 className="text-2xl">We bring Rhode Island's small businesses online.</h2>
+        <h2 className="text-2xl mb-2">We bring Rhode Island's small businesses online.</h2>
       </Section>
       <Section id="three" className="h-70 text-white bg-brewery flex flex-col justify-center">
         <h2 className="text-3xl md:text-4xl">We believe in small local businesses.</h2>
@@ -28,7 +28,7 @@ const Home = () => (
       </Section>
       <div id="five" className="bg-gray-light text-gray-dark text-center py-8">
         <h2>Contact Us!</h2>
-        <a href = "mailto: starboardcoop@gmail.com">at Hello@Starboard.dev</a>
+        <a href = "mailto: starboardcoop@gmail.com">at Hello@Starboard.coop</a>
       </div>
     </main>
     <Footer />

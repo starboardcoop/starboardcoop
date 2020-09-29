@@ -5,6 +5,10 @@
     src: url(../public/JetBrainsMono-Regular.ttf);
 }
 
+::selection {
+    @apply bg-primary-light;
+  }
+
 body {
     font-family: 'Noto Serif', serif;
     @apply text-gray-dark;
