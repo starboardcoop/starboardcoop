@@ -23,10 +23,10 @@ const Home = () => (
         <h2 className="text-3xl md:text-4xl">We believe in small local businesses.</h2>
         <p className="mt-4 text-xl">A great website has a fighting chance against the Walmarts and Amazons.</p>
       </Section>
-      <Section id="four" className="bg-primary-dark text-white">
+      <Section className="bg-primary-dark text-white">
         <h2 className="text-2xl">The global Covid-19 pandemic has uncovered the need for small businesses to offer great online experiences.</h2>
       </Section>
-      <div id="five" className="bg-gray-light text-gray-dark text-center py-8">
+      <div id="four" className="bg-gray-light text-gray-dark text-center py-8">
         <h2>Contact Us!</h2>
         <a href = "mailto: starboardcoop@gmail.com">at Hello@Starboard.coop</a>
       </div>
