@@ -8,7 +8,8 @@ const Header = () => (
         </div>
         <nav className="flex flex-row overflow-x-auto text-white text-xl bg-gray-dark md:bg-transparent">
             <div className="hidden md:flex md:p-4">
-                <a href="/#"><img src="/mixed.png" alt="Starboard" className="h-24"/></a>
+                <a href="/#"><img src="/compact-logo-only.png" alt="Starboard" className="h-24 transform hover:rotate-45 duration-75"/></a>
+                <a href="/#"><img src="/compact-no-logo.png" alt="Starboard" className="h-24"/></a>
             </div>
             <div className="flex flex-row content-center flex-1">
                 <div className="flex flex-row p-4 items-center">
