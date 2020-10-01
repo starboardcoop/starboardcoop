@@ -6,7 +6,15 @@ import Footer from '../components/Footer'
 const Home = () => (
   <>
     <Head>
-      <title>Starboard Developer Cooperative</title>
+      <title>Starboard Developer Co-operative</title>
+      <meta property="og:site_name" content="Starboard Developer Co-op" />
+      <meta property="og:title" content="Web Design &amp; Software Development" />
+      <meta property="og:description" content="Rhode Island's friendly neighborhood software development studio, owned by the people who do the work." />
+      <meta property="og:url" content="https://starboard.coop" />
+      <meta property="og:type" content="website" />
+      <meta property="og:image" content="/brewery-logo.jpg" />
+      <meta property="og:image:alt" content="A local brewery" />
+      <meta property="og:locale" content="en_US" />
     </Head>
     <Header />
     <main>
@@ -27,8 +35,8 @@ const Home = () => (
         <h2 className="text-2xl">The global Covid-19 pandemic has uncovered the need for small businesses to offer great online experiences.</h2>
       </Section>
       <div id="four" className="bg-gray-light text-gray-dark text-center py-8">
-        <h2>Contact Us!</h2>
-        <a href = "mailto: starboardcoop@gmail.com">at Hello@Starboard.coop</a>
+        <h2 className="text-xl">Tell us about your project.</h2>
+        <a href = "mailto: starboardcoop@gmail.com">hello@starboard.coop</a>
       </div>
     </main>
     <Footer />
