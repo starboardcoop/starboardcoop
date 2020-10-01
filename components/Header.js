@@ -1,4 +1,4 @@
-const aStyle = "mr-6 inline hover:text-gray-ultralight text-white"
+const aStyle = "mr-6 inline hover:text-gray-ultralight text-white transform hover:scale-125 duration-75"
 const svgStyle = "h-8 w-8 fill-current"
 
 const Header = () => (
