@@ -35,8 +35,8 @@ const Home = () => (
         <h2 className="text-2xl">The global Covid-19 pandemic has uncovered the need for small businesses to offer great online experiences.</h2>
       </Section>
       <div id="four" className="bg-gray-light text-gray-dark text-center py-8">
-        <h2>Contact Us!</h2>
-        <a href = "mailto: starboardcoop@gmail.com">at Hello@Starboard.coop</a>
+        <h2 className="text-xl">Tell us about your project.</h2>
+        <a href = "mailto: starboardcoop@gmail.com">hello@starboard.coop</a>
       </div>
     </main>
     <Footer />
