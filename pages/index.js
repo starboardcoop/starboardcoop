@@ -28,7 +28,7 @@ const Home = () => (
       <Section id="one" className="md:h-70 text-white bg-cashier flex flex-col justify-center">
         <h1 className="text-white text-3xl my-16">Your friendly neighborhood software development studio, owned by the people who do the work.</h1>
         <p className="mt-4 text-xl">
-          Learn about the <a className="text-white bg-primary-light p-1 hover:bg-primary-dark" href="https://riceo.org/learn">worker cooperative</a> movement in Rhode Island.
+          Learn about the <a className="text-white bg-primary-light p-1 hover:bg-primary-dark" href="https://riceo.org/learn" target="_blank">worker cooperative</a> movement in Rhode Island.
         </p>
       </Section>
       <Section id="two" className="bg-gray-dark text-white">
@@ -43,7 +43,7 @@ const Home = () => (
       </Section>
       <div id="four" className="bg-gray-light text-gray-dark text-center py-8">
         <h2 className="text-xl">Tell us about your project.</h2>
-        <a href = "mailto: starboardcoop@gmail.com">hello@starboard.coop</a>
+        <a href = "mailto: hello@starboard.coop">hello@starboard.coop</a>
       </div>
     </main>
     <Footer />
