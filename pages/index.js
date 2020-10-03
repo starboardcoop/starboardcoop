@@ -3,13 +3,17 @@ import Header from '../components/Header'
 import Section from '../components/Section'
 import Footer from '../components/Footer'
 
+const motto = "Rhode Island's friendly neighborhood software development studio, owned by the people who do the work."
+
 const Home = () => (
   <>
     <Head>
       <title>Starboard Developer Co-operative</title>
+      <meta property="description" content={motto} />
+      <meta name="keywords" content="Web design, Software development, Rhode Island, Cooperative, Small business, Local"></meta>
       <meta property="og:site_name" content="Starboard Developer Co-op" />
       <meta property="og:title" content="Web Design &amp; Software Development" />
-      <meta property="og:description" content="Rhode Island's friendly neighborhood software development studio, owned by the people who do the work." />
+      <meta property="og:description" content={motto} />
       <meta property="og:url" content="https://starboard.coop" />
       <meta property="og:type" content="website" />
       <meta property="og:image" content="/brewery-logo.jpg" />
