@@ -15,6 +15,8 @@ const Home = () => (
       <meta property="og:image" content="/brewery-logo.jpg" />
       <meta property="og:image:alt" content="A local brewery" />
       <meta property="og:locale" content="en_US" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:site" content="@starboardcoop" />
     </Head>
     <Header />
     <main>
