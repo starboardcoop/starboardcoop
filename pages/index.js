@@ -9,7 +9,7 @@ const Home = () => (
   <>
     <Head>
       <title>Starboard Developer Co-operative</title>
-      <meta property="description" content={motto} />
+      <meta name="description" content={motto} />
       <meta name="keywords" content="Web design, Software development, Rhode Island, Cooperative, Small business, Local"></meta>
       <meta property="og:site_name" content="Starboard Developer Co-op" />
       <meta property="og:title" content="Web Design &amp; Software Development" />
