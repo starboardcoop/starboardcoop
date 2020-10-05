@@ -36,6 +36,20 @@ const Home = () => (
       </Section>
       <Section id="two" className="bg-gray-dark text-white">
         <h2 className="text-2xl mb-2">We bring Rhode Island's small businesses online.</h2>
+        <div className="p-4">
+          <div className="bg-primary-light mt-4 p-4 rounded">
+            <h3 className="text-xl text-gray-dark font-bold">Web Design</h3>
+            <p>Single- and multi-page websites</p>
+          </div>
+          <div className="bg-primary-light mt-4 p-4 rounded">
+            <h3 className="text-xl text-gray-dark font-bold">Custom Software</h3>
+            <p>Full-stack development of cross-platform apps</p>
+          </div>
+          <div className="bg-primary-light mt-4 p-4 rounded">
+            <h3 className="text-xl text-gray-dark font-bold">Good Vibes</h3>
+            <p>We provide good vibes to every client</p>
+          </div>
+        </div>
       </Section>
       <Section id="three" className="h-70 text-white bg-brewery flex flex-col justify-center">
         <h2 className="text-3xl md:text-4xl">We believe in small local businesses.</h2>
