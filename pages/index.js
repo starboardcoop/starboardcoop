@@ -12,16 +12,17 @@ const Home = () => (
       <meta name="description" content={motto} />
       <meta name="keywords" content="Web design, Software development, Rhode Island, Cooperative, Small business, Local"></meta>
       <meta property="og:site_name" content="Starboard Developer Co-op" />
-      <meta property="og:title" content="Web Design &amp; Software Development" />
+      <meta property="og:title" content="Web Design + Custom Software" />
       <meta property="og:description" content={motto} />
       <meta property="og:url" content="https://starboard.coop" />
       <meta property="og:type" content="website" />
       <meta property="og:image" content="/brewery-logo.jpg" />
       <meta property="og:image:alt" content="A local brewery" />
       <meta property="og:locale" content="en_US" />
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:image" content="/brewery-logo.jpg" />
-      <meta name="twitter:site" content="@starboardcoop" />
+      <meta property="twitter:card" content="summary_large_image" />
+      <meta property="twitter:image" content="/brewery-logo.jpg" />
+      <meta property="twitter:site" content="@starboardcoop" />
+      <meta property="twitter:title" content="Starboard: Web Design + Custom Software" />
     </Head>
     <Header />
     <main>
