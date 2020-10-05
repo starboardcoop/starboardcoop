@@ -23,6 +23,7 @@ const Home = () => (
       <meta property="twitter:image" content="/brewery-logo.jpg" />
       <meta property="twitter:site" content="@starboardcoop" />
       <meta property="twitter:title" content="Starboard: Web Design + Custom Software" />
+      <link rel="canonical" href="https://starboard.coop/"></link>
     </Head>
     <Header />
     <main>
