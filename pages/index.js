@@ -8,7 +8,7 @@ const motto = "Rhode Island's friendly neighborhood software development studio,
 const Home = () => (
   <>
     <Head>
-      <title>Starboard Developer Co-operative</title>
+      <title>Starboard Developer Co-op | Web Design + Custom Software</title>
       <meta name="description" content={motto} />
       <meta name="keywords" content="Web design, Software development, Rhode Island, Cooperative, Small business, Local"></meta>
       <meta property="og:site_name" content="Starboard Developer Co-op" />
