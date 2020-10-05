@@ -26,7 +26,8 @@ const Home = () => (
     <Header />
     <main>
       <Section id="one" className="md:h-70 text-white bg-cashier flex flex-col justify-center">
-        <h1 className="text-white text-3xl my-16">Your friendly neighborhood software development studio, owned by the people who do the work.</h1>
+        <h1 className="hidden">Web Design + Custom Software Development</h1>
+        <h2 className="text-white text-3xl my-16">Your friendly neighborhood software development studio, owned by the people who do the work.</h2>
         <p className="mt-4 text-xl">
           Learn about the <a className="text-white bg-primary-light p-1 hover:bg-primary-dark" href="https://riceo.org/learn" target="_blank">worker cooperative</a> movement in Rhode Island.
         </p>
