@@ -20,7 +20,7 @@ const Home = () => (
       <meta property="og:image:alt" content="A local brewery" />
       <meta property="og:locale" content="en_US" />
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:image" content="/brewery-logo.jpg" />
+      <meta property="twitter:image" content="https://starboard.coop/brewery-logo.jpg" />
       <meta property="twitter:site" content="@starboardcoop" />
       <meta property="twitter:title" content="Starboard: Web Design + Custom Software" />
       <link rel="canonical" href="https://starboard.coop/"></link>
