@@ -1,11 +1,13 @@
 import Head from 'next/head'
 import Header from '../components/Header'
 import Section from '../components/Section'
+import Blurb from '../components/Blurb'
 import Footer from '../components/Footer'
 
-const motto = "Rhode Island's friendly neighborhood software development studio, owned by the people who do the work."
+const Home = () => {
+  const motto = "Rhode Island's friendly neighborhood software development studio, owned by the people who do the work."
 
-const Home = () => (
+  return (
   <>
     <Head>
       <title>Starboard Developer Co-op | Web Design + Custom Software</title>
@@ -36,6 +38,22 @@ const Home = () => (
       </Section>
       <Section id="two" className="bg-gray-dark text-white">
         <h2 className="text-2xl mb-2">We bring Rhode Island's small businesses online.</h2>
+        <div className="p-4">
+          <div>
+            <Blurb 
+              title="Web Design"
+              caption="Single- and multi-page websites"
+            />
+            <Blurb
+              title="Custom Software"
+              caption="Full-stack development of cross-platform apps"
+            />
+            <Blurb
+              title="Good Vibes"
+              caption="Included free of charge"
+            />
+          </div>
+        </div>
       </Section>
       <Section id="three" className="h-70 text-white bg-brewery flex flex-col justify-center">
         <h2 className="text-3xl md:text-4xl">We believe in small local businesses.</h2>
@@ -51,6 +69,7 @@ const Home = () => (
     </main>
     <Footer />
   </>
-)
+  )
+}
 
 export default Home

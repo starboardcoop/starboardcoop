@@ -5,6 +5,15 @@
     src: url(../public/JetBrainsMono-Regular.ttf);
 }
 
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Material Icons'),
+        local('MaterialIcons-Regular'),
+        url(../public/MaterialIcons-Regular.ttf) format('truetype');
+}
+
 ::selection {
     @apply bg-primary-light;
   }
@@ -20,4 +29,8 @@ h2,
 h3,
 h4 {
     font-family: headingFont;
+}
+
+.material-icons {
+    font-family: 'Material Icons';
 }
