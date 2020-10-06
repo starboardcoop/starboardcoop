@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Header from '../components/Header'
 import Section from '../components/Section'
+import Blurb from '../components/Blurb'
 import Footer from '../components/Footer'
 import { useState } from 'react'
 
@@ -46,18 +47,18 @@ const Home = () => {
         <div className="p-4">
           <button className="material-icons text-xl border-2 border-gray-light h-8 w-8" onClick={toggle}>add</button>
           <div className={ show ? "block" : "hidden" }>
-            <div className="bg-primary-light mt-4 p-4 rounded">
-              <h3 className="text-xl text-gray-dark font-bold">Web Design</h3>
-              <p>Single- and multi-page websites</p>
-            </div>
-            <div className="bg-primary-light mt-4 p-4 rounded">
-              <h3 className="text-xl text-gray-dark font-bold">Custom Software</h3>
-              <p>Full-stack development of cross-platform apps</p>
-            </div>
-            <div className="bg-primary-light mt-4 p-4 rounded">
-              <h3 className="text-xl text-gray-dark font-bold">Good Vibes</h3>
-              <p>Included free of charge</p>
-            </div>
+            <Blurb 
+              title="Web Design"
+              caption="Single- and multi-page websites"
+            />
+            <Blurb
+              title="Custom Software"
+              caption="Full-stack development of cross-platform apps"
+            />
+            <Blurb
+              title="Good Vibes"
+              caption="Included free of charge"
+            />
           </div>
         </div>
       </Section>
