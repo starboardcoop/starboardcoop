@@ -37,6 +37,7 @@ const Home = () => (
       <Section id="two" className="bg-gray-dark text-white">
         <h2 className="text-2xl mb-2">We bring Rhode Island's small businesses online.</h2>
         <div className="p-4">
+          <button className="material-icons border-2 border-gray-light h-8 w-8">add</button>
           <div className="bg-primary-light mt-4 p-4 rounded">
             <h3 className="text-xl text-gray-dark font-bold">Web Design</h3>
             <p>Single- and multi-page websites</p>
