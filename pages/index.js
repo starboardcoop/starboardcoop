@@ -7,11 +7,6 @@ import { useState } from 'react'
 
 const Home = () => {
   const motto = "Rhode Island's friendly neighborhood software development studio, owned by the people who do the work."
-  const [show, setShow] = useState(false);
-
-  function toggle() {
-    setShow(!show);
-  }
 
   return (
   <>
@@ -45,8 +40,7 @@ const Home = () => {
       <Section id="two" className="bg-gray-dark text-white">
         <h2 className="text-2xl mb-2">We bring Rhode Island's small businesses online.</h2>
         <div className="p-4">
-          <button className="material-icons text-xl border-2 border-gray-light h-8 w-8" onClick={toggle}>add</button>
-          <div className={ show ? "block" : "hidden" }>
+          <div>
             <Blurb 
               title="Web Design"
               caption="Single- and multi-page websites"
