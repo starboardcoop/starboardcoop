@@ -3,7 +3,6 @@ import Header from '../components/Header'
 import Section from '../components/Section'
 import Blurb from '../components/Blurb'
 import Footer from '../components/Footer'
-import { useState } from 'react'
 
 const Home = () => {
   const motto = "Rhode Island's friendly neighborhood software development studio, owned by the people who do the work."
