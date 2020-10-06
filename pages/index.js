@@ -2,10 +2,17 @@ import Head from 'next/head'
 import Header from '../components/Header'
 import Section from '../components/Section'
 import Footer from '../components/Footer'
+import { useState } from 'react'
 
-const motto = "Rhode Island's friendly neighborhood software development studio, owned by the people who do the work."
+const Home = () => {
+  const motto = "Rhode Island's friendly neighborhood software development studio, owned by the people who do the work."
+  const [show, setShow] = useState(false);
 
-const Home = () => (
+  function toggle() {
+    setShow(!show);
+  }
+
+  return (
   <>
     <Head>
       <title>Starboard Developer Co-op | Web Design + Custom Software</title>
@@ -37,18 +44,20 @@ const Home = () => (
       <Section id="two" className="bg-gray-dark text-white">
         <h2 className="text-2xl mb-2">We bring Rhode Island's small businesses online.</h2>
         <div className="p-4">
-          <button className="material-icons border-2 border-gray-light h-8 w-8">add</button>
-          <div className="bg-primary-light mt-4 p-4 rounded">
-            <h3 className="text-xl text-gray-dark font-bold">Web Design</h3>
-            <p>Single- and multi-page websites</p>
-          </div>
-          <div className="bg-primary-light mt-4 p-4 rounded">
-            <h3 className="text-xl text-gray-dark font-bold">Custom Software</h3>
-            <p>Full-stack development of cross-platform apps</p>
-          </div>
-          <div className="bg-primary-light mt-4 p-4 rounded">
-            <h3 className="text-xl text-gray-dark font-bold">Good Vibes</h3>
-            <p>We provide good vibes to every client</p>
+          <button className="material-icons text-xl border-2 border-gray-light h-8 w-8" onClick={toggle}>add</button>
+          <div className={ show ? "block" : "hidden" }>
+            <div className="bg-primary-light mt-4 p-4 rounded">
+              <h3 className="text-xl text-gray-dark font-bold">Web Design</h3>
+              <p>Single- and multi-page websites</p>
+            </div>
+            <div className="bg-primary-light mt-4 p-4 rounded">
+              <h3 className="text-xl text-gray-dark font-bold">Custom Software</h3>
+              <p>Full-stack development of cross-platform apps</p>
+            </div>
+            <div className="bg-primary-light mt-4 p-4 rounded">
+              <h3 className="text-xl text-gray-dark font-bold">Good Vibes</h3>
+              <p>Included free of charge</p>
+            </div>
           </div>
         </div>
       </Section>
@@ -66,6 +75,7 @@ const Home = () => (
     </main>
     <Footer />
   </>
-)
+  )
+}
 
 export default Home
