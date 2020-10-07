@@ -63,7 +63,7 @@ const Home = () => {
       <Section className="bg-primary-dark text-white">
         <h2 className="text-2xl">The global Covid-19 pandemic has uncovered the need for small businesses to offer great online experiences.</h2>
       </Section>
-      <Section id="crew" className="bg-gray-light">
+      <Section id="crew" grow={true} className="bg-gray-light">
         <h2 className="text-3xl">Meet the crew.</h2>
         <div className="flex flex-col md:flex-row justify-evenly content-between mt-4">
           <Profile 
@@ -75,6 +75,11 @@ const Home = () => {
             name="Mike D'Antuono"
             title="Member + Co-founder"
             image="/mugshots/mike.jpg"
+          />
+          <Profile 
+            name="Chris Milkaitis"
+            title="Member + Co-founder"
+            image="/mugshots/chris.jpg"
           />
         </div>
       </Section>
