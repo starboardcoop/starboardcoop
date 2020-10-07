@@ -65,7 +65,7 @@ const Home = () => {
       </Section>
       <Section id="crew" className="bg-gray-light">
         <h2 className="text-3xl">Meet the crew.</h2>
-        <div className="flex flex-col md:flex-row content-between">
+        <div className="flex flex-col md:flex-row justify-evenly mt-4">
           <Profile 
             name="Dillon Fagan"
             title="Member + Co-founder"
