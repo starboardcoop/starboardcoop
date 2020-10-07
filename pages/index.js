@@ -65,7 +65,7 @@ const Home = () => {
       </Section>
       <Section id="crew" grow={true} className="bg-gray-light">
         <h2 className="text-3xl">Meet the crew.</h2>
-        <div className="flex flex-col md:flex-row justify-evenly content-between mt-8">
+        <div className="flex flex-col md:flex-row justify-evenly space-y-8 md:space-y-0 mt-8">
           <Profile 
             name="Dillon Fagan"
             title="Member + Co-founder"
