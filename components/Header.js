@@ -15,6 +15,7 @@ const Header = () => (
                 <div className="flex flex-row p-4 items-center">
                     <a href="/#two" className="mr-6 hover:text-gray-ultralight">Services</a>
                     <a href="/#three" className="mr-6 whitespace-no-wrap hover:text-gray-ultralight">Mission</a>
+                    <a href="/#crew" className="mr-6 hover:text-gray-ultralight">Crew</a>
                     <a href="/#four" className="mr-6 hover:text-gray-ultralight">Contact</a>
                 </div>
                 <div className="flex p-4 pl-0 items-center flex-1 justify-end">
