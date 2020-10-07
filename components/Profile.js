@@ -1,5 +1,5 @@
 const Profile = ({ name, title, image }) => (
-    <div className="bg-red-200 mt-4">
+    <div className="bg-red-200">
         <img className="h-56 mx-auto border-8 border-primary-dark rounded-full" src={image} alt={name} />
         <div className="text-center mt-4">
             <h3 className="font-bold text-xl">{name}</h3>

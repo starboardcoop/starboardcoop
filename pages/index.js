@@ -65,16 +65,18 @@ const Home = () => {
       </Section>
       <Section id="crew" className="bg-gray-light">
         <h2 className="text-3xl">Meet the crew.</h2>
-        <Profile 
-          name="Dillon Fagan"
-          title="Member, Co-founder"
-          image="/mugshots/dillon.jpg"
-        />
-        <Profile 
-          name="Mike D'Antuono"
-          title="Member, Co-founder"
-          image="/mugshots/mike.jpg"
-        />
+        <div className="flex flex-col md:flex-row content-between">
+          <Profile 
+            name="Dillon Fagan"
+            title="Member + Co-founder"
+            image="/mugshots/dillon.jpg"
+          />
+          <Profile 
+            name="Mike D'Antuono"
+            title="Member + Co-founder"
+            image="/mugshots/mike.jpg"
+          />
+        </div>
       </Section>
       <div id="four" className="bg-gray-light text-gray-dark text-center py-8">
         <h2 className="text-xl">Tell us about your project.</h2>
