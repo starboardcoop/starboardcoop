@@ -70,16 +70,19 @@ const Home = () => {
             name="Dillon Fagan"
             title="Member + Co-founder"
             image="/mugshots/dillon.jpg"
+            github="dillonfagan"
           />
           <Profile 
             name="Mike D'Antuono"
             title="Member + Co-founder"
             image="/mugshots/mike.jpg"
+            github="mdantuono"
           />
           <Profile 
             name="Chris Milkaitis"
             title="Member + Co-founder"
             image="/mugshots/chris.jpg"
+            github="cmilkaitis"
           />
         </div>
       </Section>
