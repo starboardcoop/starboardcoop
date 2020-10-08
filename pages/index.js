@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Header from '../components/Header'
 import Section from '../components/Section'
 import Blurb from '../components/Blurb'
+import Profile from '../components/Profile'
 import Footer from '../components/Footer'
 
 const Home = () => {
@@ -61,6 +62,29 @@ const Home = () => {
       </Section>
       <Section className="bg-primary-dark text-white">
         <h2 className="text-2xl">The global Covid-19 pandemic has uncovered the need for small businesses to offer great online experiences.</h2>
+      </Section>
+      <Section id="crew" grow={true} className="bg-gray-light">
+        <h2 className="text-3xl">Meet the crew.</h2>
+        <div className="flex flex-col md:flex-row justify-evenly space-y-8 md:space-y-0 mt-8">
+          <Profile 
+            name="Dillon Fagan"
+            title="Member + Co-founder"
+            image="/mugshots/dillon.jpg"
+            github="dillonfagan"
+          />
+          <Profile 
+            name="Mike D'Antuono"
+            title="Member + Co-founder"
+            image="/mugshots/mike.jpg"
+            github="mdantuono"
+          />
+          <Profile 
+            name="Chris Milkaitis"
+            title="Member + Co-founder"
+            image="/mugshots/chris.jpg"
+            github="cmilkaitis"
+          />
+        </div>
       </Section>
       <div id="four" className="bg-gray-light text-gray-dark text-center py-8">
         <h2 className="text-xl">Tell us about your project.</h2>
