@@ -84,6 +84,12 @@ const Home = () => {
             image="/mugshots/chris.jpg"
             github="cmilkaitis"
           />
+          <Profile
+            name="Cristina Zalucky"
+            title="Member"
+            image="/mugshots/tina.jpg"
+            github="czalucky"
+          />
         </div>
       </Section>
       <div id="four" className="bg-gray-light text-gray-dark text-center py-8">
